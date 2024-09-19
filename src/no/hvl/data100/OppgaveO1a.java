@@ -7,12 +7,12 @@ public class OppgaveO1a {
 
     public static void main(String[] args) {
         
-        String poengsummet = showInputDialog("Hva er poengsummen til studenten ?");
+        String poengsummet = showInputDialog("Hva er poengsummen til studenten?");
         
      
         int poengsummet2 = parseInt(poengsummet);
         
-       
+        
         if (poengsummet2 >= 90 && poengsummet2 <= 100) {
             showMessageDialog(null, "Karakteren er A");
         } else if (poengsummet2 >= 80 && poengsummet2 <= 89) {
